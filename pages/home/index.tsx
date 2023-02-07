@@ -37,6 +37,25 @@ const introduceList = [
 
 
 const Home = () => {
+  // const FormatToTree = (arr: any, parentId: any) => {
+  //   return arr.filter((item: any) => item.id === parentId).map((i: any) => {
+  //      i.children = FormatToTree(arr || [], i.id);
+  //      return i;
+  //   })
+  // };
+
+  // const flatArr = (arr: any[], pre: any[]): any => {
+  //   return arr.reduce((previous, current) => {
+  //     if (Array.isArray(current)) {
+  //       return flatArr(current, previous)
+  //     } else {
+  //       return previous.concat(current);
+  //     }
+  //   }, pre);
+  // };
+
+
+  // console.log('----', flatArr([1, [2, 3, 5, [5, [6, 7]], [8]]], []));
   return (
     <div className={styles["home"]}>
       <div className={styles["banner"]}>
